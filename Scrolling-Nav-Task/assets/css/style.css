@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NAV-BAR */
+
+.navbar {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #212529;
+}
+
+
+/*ALL "A" */
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+/*  NAV */
+
+.nav {
+    background-color: #0d6efd;
+    padding: 7rem 0;
+    text-align: center;
+}
+
+.nav h1 {
+    color: #fff;
+    font-size: 40px;
+    padding: 15px 0;
+}
+
+.nav p {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 33px;
+}
+
+.nav a {
+    color: #212529;
+    font-size: 20px;
+    background: #fff;
+    padding: 15px 18px;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
+
+
+/*  ABOUT */
+
+.about {
+    padding: 7rem 0;
+    font-size: 20px;
+}
+
+.about .about__content {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.about .about__content .about__h2 {
+    font-size: 20px;
+    margin: 0px 0px 16px;
+}
+
+.about .about__content .about__p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 30px 0;
+    /* padding: 30px 0; */
+}
+
+.about .about__ul {
+    margin-left: 20px;
+}
+
+
+/*  SERVICE */
+
+.service {
+    padding: 7rem 0;
+    font-size: 16px;
+}
+
+.service .service__content {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.service .service__content .about__h2 {
+    font-size: 20px;
+    margin: 0px 0px 16px;
+}
+
+.service .service__content .service__p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 30px 0;
+}
+
+
+/*  CONTACT */
+
+.contact {
+    padding: 7rem 0;
+    font-size: 20px;
+}
+
+.contact .contact__content {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.contact .contact__content .contact__h2 {
+    font-size: 20px;
+    margin: 0px 0px 16px;
+}
+
+.contact .contact__content .contact__p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-left: 20px;
+    margin: 30px 0;
+}
+
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+}
+
+.footer .footer-black {
+    background-color: #212529;
+    padding: 2.5rem 0;
+    color: white;
+}
+
+.footer .footer__p {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
